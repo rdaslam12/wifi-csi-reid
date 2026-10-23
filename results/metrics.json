@@ -1,0 +1,24 @@
+{
+  "protocol": "closed-set Wi-PER81, session A training / session B held-out evaluation",
+  "seeds_per_configuration": 3,
+  "controlled_baseline": {
+    "rank_1": 0.791,
+    "rank_5": 0.945,
+    "mAP": 0.765,
+    "macro_f1": 0.769
+  },
+  "best_rank1_configuration": {
+    "name": "M4 + dual-axis attention",
+    "rank_1": 0.907,
+    "rank_5": 0.977,
+    "mAP": 0.863,
+    "macro_f1": 0.901
+  },
+  "reported_full_system": {
+    "name": "M5 + hard negatives",
+    "rank_1": 0.903,
+    "rank_5": 0.977,
+    "mAP": 0.862,
+    "macro_f1": 0.895
+  }
+}
